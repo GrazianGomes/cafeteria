@@ -67,3 +67,108 @@ div a {
   color: mediumblue;
   text-decoration: none;
 }
+main {
+  /* vamos aplicar uma margem interna de 20px utilizaremos o comando padding */
+  padding: 20px;
+}
+h2 {
+  font-family: "Jockey+One";
+  color: black;
+  font-size: 30pt;
+  border-bottom: 4px dashed rgba(100, 0, 0);
+  padding-left: 0;
+  text-align: center;
+  margin-bottom: 100px;
+}
+h3 {
+  font-family: "Jockey+One";
+  margin-left: 0;
+  font-size: 20pt;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+p {
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
+  /* aplicaremos o comando que aumenta oa altura da linha. esse efeito simula o espaçamento entre linhas encontrado no Word. O comando é
+  line-height-> linha hight; */
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-family: "Jockey+One";
+  font-size: 13pt;
+}
+
+#home {
+  text-align: center;
+}
+#home img {
+  height: 400px;
+  width: 500px;
+  margin: 20px;
+  /* Vamos aplicar um efeito de trasparencia com o comando "Opacity".
+ Onde os valores 1 é totalmento visivel e 0 é totalmente trasparente. */
+  opacity: 0.9;
+  border-radius: 40%;
+  transition: ease 0.5s;
+}
+#home img:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  cursor: pointer;
+  /* transform: rotatex(360deg);*/
+}
+#acafeteria {
+  text-align: center;
+}
+#acafeteria img {
+  width: 500px;
+  height: 400px;
+}
+#acafeteria iframe {
+  text-align: center;
+}
+#video {
+  text-align: center;
+}
+#video {
+  text-align: center;
+}
+#container,
+#linha,
+#imagem,
+#texto {
+  /* border: 2px solid black; */
+}
+#container {
+  display: inline-block;
+}
+#linha {
+  display: table;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#imagem img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+#imagem {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /* Fazer a imagem flutuar para a esquerda */
+  float: left;
+}
+#texto {
+  padding: 5px;
+  width: 70%;
+  float: left;
+}
+#imagem img:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  cursor: pointer;
+}
