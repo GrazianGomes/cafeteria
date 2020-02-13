@@ -176,3 +176,60 @@ p {
   cursor: pointer;
   transition: ease 1s;
 }
+
+form {
+  border: 1px solid black;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-family: "Jockey+One";
+}
+label {
+  /* Para dispor os elementos um abaio do outro utiizaremos
+  o comando display block */
+  display: block;
+  /* aplicar o negrito usamos o comando font-weight:  com o 
+  valor bold; */
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 50%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 0;
+  border-bottom: 2px solid black;
+  border-radius: 70px;
+  background-color: rgb(192, 173, 173);
+}
+input [type="tel"] {
+  width: 15%;
+}
+#sexo {
+  display: block;
+  margin-bottom: 15px;
+}
+select {
+  padding: 4px;
+  width: 20%;
+}
+select.option:hover {
+  background-color: rgb(192, 173, 173);
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+}
+textarea {
+  width: 60%;
+  height: 250px;
+}
+input[type="submit"] {
+  display: block;
+  border: 0;
+  color: white;
+  padding: 10px;
+  background-color: black;
+  cursor: pointer;
+}

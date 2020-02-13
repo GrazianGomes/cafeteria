@@ -33,7 +33,46 @@ Barra de Navegação
       </nav>
     </header>
     <!-- A estrutura da área main fica reservada ao conteúdo das páginas específicas -->
-    <main></main>
+    <main>
+      <h2>Contato</h2>
+      <form action="confirmacao.html">
+        <label> Nome *</label>
+        <input type="text" name="nome" placeholder="Nome completo" required />
+
+        
+        <label>E-Mail*</label>
+        <input type="Email" name="Email" placeholder="exemplo@dominio.com"required>
+        <label>Telefone:</label>
+        <input type="Tel" name="Telefone" placeholder="(xx)xxxx-xxxx">
+        <label>Sexo</label>
+        <span id="sexo">
+          <input type="Radio" name="sexo" value="Homen"> Masculino
+          <input type="Radio" name="sexo" value="Mulher">Feminino
+          <input type="Radio" name="sexo" value="Outros">Outros
+          
+        </span>
+<select  name="assunto">
+
+  <option value="Selecione">Selecione o Assunto</option>
+  <option value="Eleogio">Elogio</option>
+  <option value="Sugestão">Sugestão</option>
+  <option value="Reclamação">Reclamação</option>
+  <option value="Problemas">Problemas</option>
+  <option value="Duvida">Duvida</option>
+</select>
+<label>Mensagem</label>
+<textarea name="mensagem" ></textarea>
+<span id="check"><input type="checkbox"name="newsletter">
+  Desejo receber mensagens e notícias sobre promoçães e eventos em 
+  meu e-mail  e telefone.
+  <br>
+  <input type="submit" value="Enviar" />
+
+
+</span>
+
+      </form>
+    </main>
     <!-- Criação da área do rodapé com o comando footer. esta area se destina a exibição 
      do endereço e-mail, telefone e redes sociais. -->
     <footer>
