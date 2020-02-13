@@ -143,6 +143,9 @@ p {
 }
 #container {
   display: inline-block;
+  border-bottom: 2px solid black;
+  box-shadow: 5px 5px 20px black;
+  margin-bottom: 80px;
 }
 #linha {
   display: table;
@@ -171,4 +174,5 @@ p {
   opacity: 1;
   transform: scale(1.2);
   cursor: pointer;
+  transition: ease 1s;
 }
